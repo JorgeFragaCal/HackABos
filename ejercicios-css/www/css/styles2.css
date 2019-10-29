@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  text-align: center;
+  background: #000500;
+  color: white;
+}
+h1 {
+  margin: 2%;
+}
+section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#carusel img {
+  width: 100%;
+}
+#a {
+  width: 100%;
+}
+#a img {
+  width: 600px;
+  height: 400px;
+  vertical-align: top;
+  opacity: 0.5;
+}
+
+#a img:hover {
+  opacity: 1;
+}
+#menu {
+  background: #2e302ee8;
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+}
+p {
+  margin: 3%;
+}
+h3 {
+  margin: 3%;
+}
+
+#dos {
+  z-index: 20;
+  top: 100px;
+  position: absolute;
+  width: 1920px;
+  height: 520px;
+
+  animation: example 10s infinite;
+}
+
+@keyframes example {
+  0% {
+    left: 2000px;
+    opacity: 0;
+  }
+  15% {
+    left: 0;
+    opacity: 1;
+  }
+  75% {
+    left: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -2000px;
+  }
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+#contacto {
+  background: rgb(73, 73, 73);
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.myButton {
+  background: linear-gradient(to bottom, #1e1f1f 5%, #5c5c5c 100%);
+  background-color: #1e1f1f;
+  border-radius: 5px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 11px 23px;
+  text-decoration: none;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #5c5c5c 5%, #1e1f1f 100%);
+  background-color: #5c5c5c;
+}
+ul {
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  z-index: 10;
+}
+#menuicon {
+  background: white;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+}
+#menuicon:hover > ul {
+  display: block;
+}
+ul > li > ul {
+  height: 200px;
+  background: white;
+  width: 40%;
+  bottom: 25%;
+  right: 10%;
+  display: none;
+  list-style: none;
+}
+ul > li > ul > li {
+  padding: 10px;
+}
+ul > li > ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+i {
+  color: black;
+  font-size: 50px;
+  margin: 25%;
+}

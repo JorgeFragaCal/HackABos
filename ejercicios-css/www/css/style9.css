@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: yellow;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  padding: 1rem;
+}
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+}
+
+form fieldset {
+  border: 0;
+  width: 100%;
+}
+button {
+  float: right;
+}
+form fieldset input {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  width: 100%;
+  color: white;
+  border: 1px solid yellow;
+  box-sizing: border-box;
+  text-indent: 20px;
+}
+form fieldset input:invalid {
+  border-color: red;
+}
+form fieldset button {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: orangered;
+  border: 0;
+}
+a {
+  color: orangered;
+  float: right;
+  font-size: 10px;
+  margin: 0 2px;
+}
