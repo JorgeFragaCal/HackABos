@@ -1,0 +1,33 @@
+header {
+  /* border: 2px solid red; */
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+
+  border-top-width: 8px;
+  border-top-style: dotted;
+
+  border-bottom-width: 4px;
+}
+
+header h1 {
+  border-bottom: 2px solid lightpink;
+  border-top: 4px ridge gold;
+}
+
+section {
+  margin: 2rem 0;
+  border: 2px solid gold;
+  border-radius: 1rem;
+  background: lightpink;
+  padding: 1rem;
+  text-align: center;
+  font-size: 200%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section:hover {
+  background-color: lightsalmon;
+  background-image: url('/img/pikachu.png');
+  color: white;
+}

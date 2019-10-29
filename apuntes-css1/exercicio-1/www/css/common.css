@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+
+body > header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+body > header h1 {
+  margin: 0;
+}
+
+body > header h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+/* Generic Section */
+
+body > section {
+  margin: 1rem;
+}
+
+nav.secondary {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer */
+
+body > footer {
+  background: black;
+  color: white;
+  order: -1;
+}
+
+body > footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+body > footer ul a {
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+  padding: 0.75rem 1rem;
+  display: block;
+}
+
+/* Botón */
+
+.button {
+  background-color: lightskyblue;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: inline-block;
+}
+
+/* Media queries */
+
+@media (min-width: 700px) {
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  body > footer {
+    flex-basis: 100%;
+  }
+
+  body > header {
+    flex-basis: 100%;
+  }
+
+  nav.secondary {
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 20px;
+  }
+}

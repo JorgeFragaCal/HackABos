@@ -1,0 +1,28 @@
+@import '/css/common.css';
+
+/* Media queries */
+
+@media (min-width: 700px) {
+  body > header {
+    flex-basis: calc(33.33% - 2rem);
+    text-align: right;
+  }
+
+  nav.secondary {
+    justify-content: flex-end;
+  }
+
+  section#content {
+    flex-basis: calc(66.66% - 2rem);
+  }
+}
+
+@media (min-width: 1500px) {
+  body > header {
+    flex-basis: calc(500px - 2rem);
+  }
+
+  section#content {
+    flex-basis: calc(1000px - 2rem);
+  }
+}

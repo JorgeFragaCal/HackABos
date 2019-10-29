@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(rebeccapurple, gold);
+  min-height: 100vh;
+}
+
+section.content div {
+  background-color: gold;
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+section.content {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 100px 1fr);
+  grid-template-rows: repeat(4, 10rem);
+}
+
+section.content > div.item5 {
+  background-color: tomato;
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+section.content > .item7 {
+  background-color: cornflowerblue;
+  grid-column: span 3;
+}
+
+section.content > .item8 {
+  background-color: greenyellow;
+  grid-column: 4;
+  grid-row: 2 / 5;
+}

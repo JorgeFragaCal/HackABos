@@ -1,0 +1,115 @@
+h1 {
+  color: brown;
+}
+
+#primeiro {
+  background: lightblue;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.small {
+  font-size: 60%;
+}
+
+[lang='fr'] {
+  background: blue;
+  color: white;
+}
+
+[required] {
+  background: lightyellow;
+}
+
+[data-importante] {
+  background: lightsalmon;
+}
+
+/* Pseudo classes */
+li {
+  margin: 1rem;
+}
+
+a {
+  border: 2px solid blue;
+  background: lightgoldenrodyellow;
+}
+
+a:visited {
+  background: lightgreen;
+}
+
+a:hover {
+  background: black;
+  color: white;
+  font-family: fantasy;
+}
+
+h1:hover {
+  text-decoration: underline;
+  color: greenyellow;
+}
+
+li:first-child {
+  background: lightpink;
+}
+
+li:last-child {
+  background: lightseagreen;
+}
+
+table {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
+td:empty {
+  border: 1px solid red;
+  background: lightpink;
+}
+
+tr:nth-child(2n + 2) {
+  background: lightgrey;
+}
+
+li:nth-child(3) {
+  background: lightgrey;
+}
+
+tr:not(.primeira) {
+  font-size: 150%;
+}
+
+a:only-child {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Pseudo elementos */
+
+p::first-letter {
+  font-size: 300%;
+  color: red;
+}
+
+p::first-line {
+  color: red;
+}
+
+p::selection {
+  background: lightyellow;
+  color: red;
+}
+
+a::before {
+  content: '➡️';
+  margin-right: 10px;
+}
+
+[href^='https']::before {
+  content: '⏫';
+}

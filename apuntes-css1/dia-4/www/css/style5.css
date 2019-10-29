@@ -1,0 +1,26 @@
+section#content img.pika {
+  width: 100px;
+  float: right;
+}
+
+section#content img.saur {
+  float: left;
+  width: 100px;
+  margin-right: 1rem;
+}
+
+section#content p:first-of-type {
+  background: lightgray;
+}
+
+section#content p:first-of-type::first-letter {
+  font-size: 340%;
+  color: rosybrown;
+  float: left;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+section#content p:last-child {
+  clear: right;
+}

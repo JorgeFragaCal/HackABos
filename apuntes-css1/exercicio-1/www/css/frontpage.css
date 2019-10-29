@@ -1,0 +1,47 @@
+@import '/css/common.css';
+
+body > header img {
+  max-width: 30%;
+  border-radius: 50%;
+  border: 0.5rem solid black;
+}
+
+body > header nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+section#experience ul {
+  padding: 0 1rem;
+}
+
+/* Media queries */
+
+@media (min-width: 700px) {
+  section#experience,
+  section#intro {
+    flex-basis: calc(50% - 2rem);
+  }
+}
+
+@media (min-width: 1000px) {
+  body > header,
+  section#experience,
+  section#intro {
+    flex-basis: calc(30% - 2rem);
+  }
+
+  body > header {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1500px) {
+  body > header,
+  section#experience,
+  section#intro {
+    flex-basis: calc(500px - 2rem);
+  }
+}

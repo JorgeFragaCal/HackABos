@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(rebeccapurple, gold);
+  min-height: 100vh;
+}
+
+section.content div {
+  background-color: gold;
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+section.content {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 10rem 20rem 20rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 30rem 20rem 10rem;
+}

@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+h1,
+h2 {
+  background: rgba(255, 0, 0, 0.5);
+  margin: 4rem 0;
+}
+
+section#content {
+  background: rgba(125, 0, 125, 0.5);
+  height: 50vh;
+  max-height: 400px;
+  margin: 2rem 0 2rem 3rem;
+  border: 4px solid red;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+p {
+  background: rgba(0, 255, 0, 0.5);
+  width: 120%;
+  height: 600px;
+  padding: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  border: 8px solid white;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+strong {
+  background: rgba(0, 0, 255, 0.5);
+}

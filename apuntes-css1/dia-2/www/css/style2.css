@@ -1,0 +1,43 @@
+p.especial {
+  font-family: monospace;
+}
+
+.internos.especial {
+  background: lightpink;
+}
+
+p.especial,
+ul.externos {
+  background: lightblue;
+}
+
+.internos a {
+  color: black;
+}
+
+.externos a {
+  color: brown;
+}
+
+.internos li a strong {
+  border: 2px solid blue;
+}
+
+a > strong {
+  text-transform: uppercase;
+}
+
+input + label {
+  background: red;
+  color: white;
+}
+
+input:checked + label {
+  background: green;
+  color: black;
+}
+
+input ~ span {
+  color: gold;
+  background: lightskyblue;
+}

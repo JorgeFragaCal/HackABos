@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+
+article {
+  padding: 4rem;
+  background-color: red;
+  color: white;
+  animation-name: showup;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0.2;
+    background-color: white;
+    color: black;
+    transform: translateY(100px) rotate(-360deg);
+  }
+
+  50% {
+    opacity: 0.5;
+    color: lightgray;
+    transform: translateY(100px) translateX(200px) rotate(-180deg);
+  }
+
+  100% {
+    opacity: 1;
+    background-color: gold;
+    color: white;
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+}

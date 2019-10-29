@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(rebeccapurple, gold);
+  min-height: 100vh;
+}
+
+section.content div {
+  background-color: gold;
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+section.content {
+  display: grid;
+  height: 500px;
+  border: 2px solid gold;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, 150px);
+  grid-template-rows: repeat(auto-fill, 100px);
+}
+
+section.content .item3 {
+  grid-column: auto / -1;
+}

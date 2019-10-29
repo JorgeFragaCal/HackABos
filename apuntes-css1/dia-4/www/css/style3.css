@@ -1,0 +1,10 @@
+body {
+  background-color: lightpink;
+  color: white;
+  background-image: url('/img/pikachu.png'), url('/img/bulbasaur.png');
+  background-repeat: no-repeat;
+  background-position: right 20px, left bottom;
+  background-size: cover, 200px;
+  min-height: 100vh;
+  margin: 0;
+}

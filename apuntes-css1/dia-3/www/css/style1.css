@@ -1,0 +1,39 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-size: 10px;
+}
+
+header {
+  background: rebeccapurple;
+  font-family: monospace;
+  height: 50vh;
+  width: 50vw;
+}
+
+header > h1 {
+  margin: 0;
+  color: yellow;
+  font-size: 2em;
+  background: rgba(123, 222, 93, 0.5);
+  width: 50%;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+p.intro {
+  border: 2px solid gray;
+  padding: 2rem;
+  background: #fabada;
+  width: 20rem;
+  margin: auto;
+}

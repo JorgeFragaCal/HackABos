@@ -1,0 +1,70 @@
+li {
+  background: green;
+  margin: 10px;
+}
+
+#simples {
+  background-color: red;
+}
+
+.importante {
+  font-size: 150%;
+}
+
+.especial {
+  border-bottom: 4px solid gold;
+}
+
+[lang] {
+  color: blueviolet;
+}
+
+[data-hackabos] {
+  text-decoration: underline;
+}
+
+[lang='gl'] {
+  font-size: 125%;
+  background: lightgreen;
+  color: yellow;
+}
+
+[data-gusto='1'] {
+  font-size: 200%;
+}
+
+[data-gusto='2'] {
+  font-size: 180%;
+}
+
+[data-gusto='3'] {
+  font-size: 160%;
+}
+
+[data-gusto='4'] {
+  font-size: 140%;
+}
+
+[data-gusto='5'] {
+  font-size: 120%;
+}
+
+[data-gusto='6'] {
+  font-size: 120%;
+}
+
+[data-gusto='9'] {
+  font-size: 10%;
+}
+
+[data-gusto^='mo'] {
+  font-size: 200%;
+}
+
+[data-gusto$='o'] {
+  color: red;
+}
+
+[data-gusto*='u'] {
+  border-bottom: 2px solid blue;
+}

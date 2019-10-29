@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(rebeccapurple, tomato);
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+section.container {
+  border: 5px solid gold;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 200px auto 1fr 2fr;
+  /* grid-template-rows: 200px 500px 100px 250px; */
+}
+
+section.container > div {
+  background: gold;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+}

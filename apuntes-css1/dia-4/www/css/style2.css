@@ -1,0 +1,16 @@
+p {
+  display: inline;
+}
+
+p strong {
+  background: lightgreen;
+  border: 2px solid black;
+  height: 40px;
+  padding: 2rem;
+  /* display: block; */
+  display: inline-block;
+}
+
+img {
+  margin: 0 2rem;
+}

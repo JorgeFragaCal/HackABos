@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Open+Sans:300,400,800&display=swap');
+
+@font-face {
+  font-family: 'marela';
+  src: url('/fonts/marela.ttf');
+}
+
+@font-face {
+  font-family: 'milochadepor';
+  src: url('/fonts/Milocha.woff') format('woff'),
+    url('/fonts/Milocha.woff2') format('woff2');
+}
+
+html {
+  font-size: 15px;
+}
+
+header > h1 {
+  color: rebeccapurple;
+  font-family: 'marela', cursive;
+  font-weight: 700;
+  font-size: 500%;
+  text-transform: capitalize;
+  text-decoration: underline overline dashed rgba(6, 0, 128, 0.255);
+  letter-spacing: -3px;
+}
+
+header > h2 {
+  text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+  text-align: left;
+  font-family: 'milochadepor', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+
+  line-height: 1.5rem;
+  /* Valor por defecto: 0 */
+  word-spacing: 0;
+}
